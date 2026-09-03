@@ -1,3 +1,7 @@
+
+# 理论资源占用
+
+![[Pasted image 20260901135541.png]]
 # 集成 EnDat 3 前后的资源消耗总结（PmsmCtrlTop_Mars）
 # 基础分支：origin/Dev_Mars_FPGA
 

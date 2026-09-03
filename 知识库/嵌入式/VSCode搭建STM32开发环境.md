@@ -9,6 +9,10 @@ source: "微信公众号 嵌入式从入门到放弃"
 
 > STM32CubeMX + VSCode + GCC + OpenOCD，免费开源的STM32开发方案。
 
+## 摘要
+
+本文详细介绍如何使用STM32CubeMX + VSCode + GCC + OpenOCD搭建免费开源的STM32开发环境。涵盖工具下载配置、VSCode插件安装、CubeMX代码生成、开发环境配置（解决波浪线、编译、clean命令）、OpenOCD烧录调试等完整流程，适合希望摆脱Keil/IAR束缚的开发者。
+
 ## 一、工具下载及环境配置
 
 | 工具 | 用途 |
@@ -154,6 +158,10 @@ openocd -f interface/stlink-v2.cfg -f target/stlink-v2.cfg -c "program build/fir
   ]
 }
 ```
+
+## 个人想法
+
+这套方案是嵌入式开发的未来趋势，完全免费且跨平台。VSCode的插件生态和AI辅助能力远超传统IDE，OpenOCD支持几乎所有调试器。缺点是首次配置略繁琐，但一旦搭好就一劳永逸。建议结合CMake进一步提升工程管理能力。
 
 ## 原文链接
 
