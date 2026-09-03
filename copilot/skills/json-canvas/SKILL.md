@@ -90,7 +90,11 @@ grid when creating a new layout.
 - Sides, ends, and colors use allowed values.
 - Nodes do not unintentionally overlap and group children sit inside bounds.
 
+<<<<<<< HEAD
 Read [Examples](references/EXAMPLES.md) for complete connected and grouped
+=======
+Read [Examples](AoVault/copilot/skills/json-canvas/references/EXAMPLES.md) for complete connected and grouped
+>>>>>>> origin/master
 canvases.
 
 ## Attribution

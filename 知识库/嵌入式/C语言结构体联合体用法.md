@@ -9,6 +9,10 @@ source: "微信公众号 一枚嵌入式码农"
 
 > 不讲基础语法，直接上干货。结构体和联合体在嵌入式项目中的7个实用技巧。
 
+## 摘要
+
+本文介绍C语言结构体和联合体在嵌入式项目中的7个高级用法，包括柔性数组、位域、大小端判断、寄存器映射、Tagged Union、container_of宏和内存对齐优化。这些技巧能显著提升代码的可读性、可维护性和运行效率，是嵌入式开发者的必备知识。
+
 ## 一、柔性数组——一次malloc搞定变长数据
 
 消息头固定、消息体长度不定的场景，C99柔性数组成员（Flexible Array Member）：
@@ -167,6 +171,10 @@ struct GoodLayout {
 typedef struct { ... } PackedFrame;
 #pragma pack(pop)
 ```
+
+## 个人想法
+
+这些技巧在实际项目中非常实用，特别是container_of宏和Tagged Union模式。container_of是Linux内核链表的核心，理解它能帮助读懂更多底层代码；Tagged Union则是C语言实现多态的优雅方式，在协议解析和状态机中广泛应用。
 
 ## 原文链接
 

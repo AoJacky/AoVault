@@ -47,7 +47,7 @@ Prefix a wikilink with <code>!</code>:
 ![[document.pdf#page=3]]
 ~~~
 
-See [Embeds](references/EMBEDS.md) for media, PDF, and query forms.
+See [Embeds](EMBEDS.md) for media, PDF, and query forms.
 
 ## Callouts
 
@@ -59,7 +59,7 @@ See [Embeds](references/EMBEDS.md) for media, PDF, and query forms.
 > Foldable content.
 ~~~
 
-See [Callouts](references/CALLOUTS.md) for types, aliases, folding, and nesting.
+See [Callouts](CALLOUTS.md) for types, aliases, folding, and nesting.
 
 ## Properties, tags, and comments
 
@@ -76,7 +76,7 @@ related: "[[Other Note]]"
 ~~~
 
 Quote wikilinks used as YAML values. See
-[Properties](references/PROPERTIES.md) for supported property types and tag rules.
+[Properties](PROPERTIES.md) for supported property types and tag rules.
 
 Use <code>#nested/tag</code> for inline tags. Hide content from reading view with
 <code>%%inline comments%%</code> or a matching pair of <code>%%</code> markers on
