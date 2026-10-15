@@ -1,3 +1,11 @@
+---
+title: "EnDat3 e3_master 模块层次结构"
+type: Feature
+date: 2026-09-28
+tags: [工作, EnDat3, FPGA]
+source: "工作笔记"
+---
+
 ## E 3 Master 模块层次结构
 
 本文档展示 `e3_master` 的模块层次、`e3_rs485_phy` 的内部组成，以及同步模块的关系。

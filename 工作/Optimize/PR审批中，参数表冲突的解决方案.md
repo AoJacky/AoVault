@@ -1,6 +1,11 @@
 ---
-
+title: "PR 审批中参数表冲突的解决方案"
+type: Optimize
+date: 2026-09-03
+tags: [工作, Optimize, Git]
+source: "工作笔记"
 ---
+
 ### 💡方案说明
 
 **问题：** 两个人改了不同参数，PR 还是报 xlsx 冲突，每次都要手动对比。

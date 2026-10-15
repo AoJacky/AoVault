@@ -1,3 +1,11 @@
+---
+title: "Requirement 896437 - [E 550/E 530] Encoder automatic recognition"
+type: Requirement
+date: 2026-09-03
+tags: [工作, Requirement, 编码器]
+source: "https://dev.azure.com/ABB-MO-Drives/CN%20Servo%20SW/_workitems/edit/896437"
+---
+
 [Requirement 896437](https://dev.azure.com/ABB-MO-Drives/CN%20Servo%20SW/_workitems/edit/896437): [E 550/E 530]Encoder automatic recognition
 
 ### 需求描述
@@ -25,3 +33,8 @@ a9-->|==06H| a12(P17.03 == 4 \n 23位光编电子单圈)
 a9-->|==17H| a13(P17.03 == 5 \n 23位光编电子多圈)
 
 ```
+
+### 风险点
+1. pThis->tInit.eEncType 在其他地方的判断
+	1. ENC_vMainFunction
+	2. ENC_FBK_vPreHandler

@@ -1,3 +1,11 @@
+---
+title: "EnDat3 Support（需求集合）"
+type: Feature
+date: 2026-07-13
+tags: [工作, EnDat3, 需求]
+source: "工作笔记"
+---
+
 ### Req 1: 评估 E550 FPGA 资源余量以确认 EnDat3 IP 核集成可行性(3d)
 	As a designer,
 		我需要评估集成 EnDat3 IP 核后 FPGA 的资源余量，确认完整功能在现有平台上的实现可行性。

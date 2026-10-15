@@ -1,3 +1,10 @@
+---
+title: "EnDat3 IP 核资源占用分析（集成前后）"
+type: Feature
+date: 2026-09-28
+tags: [工作, EnDat3, FPGA, 资源占用]
+source: "工作笔记"
+---
 
 # 理论资源占用
 
