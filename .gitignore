@@ -1,4 +1,6 @@
 .obsidian
-
-/copilot/
-conflict-files-obsidian-git.md
+.agent
+.claude
+.copilot
+.opencode
+copilot
